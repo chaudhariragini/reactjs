@@ -1,0 +1,50 @@
+@import'../../veraible';
+@import'../../sass/variable/utility';
+header{
+
+nav{
+    display: $flex;
+    justify-content: $justify-c-1;
+    // background-color:$bg-1;
+    @at-root
+    ul{
+        list-style: none;
+        display: $flex;
+        gap: 15px;
+        @at-root
+    
+        li{
+            text-decoration: none;
+        }
+        
+    }
+    button{
+        background-color: $bg-1;
+        border: 0;
+    }
+}
+.text{
+    position: absolute;
+    top:100px;
+    left: 600px;
+    color: white;
+    span{
+        display: block;
+    }
+}
+.img{
+    text-align: center;
+    @at-root
+    button{
+        background-color: $bg-1;
+    }
+   
+}
+h3{
+    color: $c-3;
+    span{
+        color:$c-2;
+    }
+}
+
+}

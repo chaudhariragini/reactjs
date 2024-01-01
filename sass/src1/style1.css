@@ -1,0 +1,41 @@
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+li {
+  text-decoration: none;
+}
+
+header nav button {
+  background-color: crimson;
+  border: 0;
+}
+header .text {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  color: white;
+}
+header .text span {
+  display: block;
+}
+header .img {
+  text-align: center;
+}
+button {
+  background-color: crimson;
+}
+
+header h3 {
+  color: red;
+}
+header h3 span {
+  color: black;
+}
+
+/*# sourceMappingURL=style1.css.map */

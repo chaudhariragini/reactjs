@@ -17,9 +17,9 @@
 }
 
 button {
-  background-color: black;
+  background-color: green;
   color: white;
-  font-size: large;
+  font-size: larger;
   margin-top: 10px;
   border-radius: 50px;
   width: 200px;
