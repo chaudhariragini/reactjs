@@ -1,10 +1,13 @@
 @import'../../veraible';
 @import'../../sass/variable/utility';
+body{
+    background-image: url('../projectimage/page-title-bg.jpg');
+}
 header{
 
 nav{
     display: $flex;
-    justify-content: $justify-c-1;
+    justify-content: $justify-c-2;
     // background-color:$bg-1;
     @at-root
     ul{
@@ -36,9 +39,10 @@ nav{
     text-align: center;
     @at-root
     button{
+        
         background-color: $bg-1;
-    }
    
+}
 }
 h3{
     color: $c-3;
