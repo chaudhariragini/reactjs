@@ -69,10 +69,10 @@ aside{
 }
 /* search bar */
 .search{
-    width:1020px;
+    /* width:1020px; */
     background-color:white;
     border:2px solid rgb(236, 229, 229);
-    margin-left:320px;
+    /* margin-left:320px; */
     border-radius: 10px;
     padding: 15px;
     display: flex;
